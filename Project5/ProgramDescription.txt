@@ -1,0 +1,19 @@
+--------------------------------------------------
+Opis programu:
+W obu metodach używam list, które przechowują potencjalne węzły do redukcji. 
+W metodzie z redukcją po wstawieniu wszystkich barw, korzystam z własnej stworzonej listy, 
+natomiast w metodzie drugiej z klasy "List<>" i tam przechowuję węzły, które w drzewie są rodzicami liści.
+
+Barwy są redukowane do maksimum tyle ile podano na suwaku, dlatego dla niektórych obrazów
+przy redukcji do dwóch lub czterech kolorów, obraz składa się np. tylko z jednego koloru.
+
+Obraz jest wczytywany i redukowany względem swojej wejściowej wielkości, a wyświetlany w dopasowanej do ramki.
+--------------------------------------------------
+Obsługa:
+- Choose Picture - przycisk, który umożliwia wybranie obrazu do redukcji (tu ograniczyłam tylko do formatu JPG),
+- Track bar - zmienia jaka ma być maksymalna osiągnięta liczba kolorów po redukcji,
+			  jest możliwość wyboru 2, 4, 8, 16, 32, 64, 128 lub 256 maksymalnej liczby kolorów,
+- Reduce - jeśli obraz został wczytany, to następuje redukcja obrazu.
+--------------------------------------------------
+Drobna uwaga:
+Oba wskaźniki progresu "ProgressBar" nie działają poprawnie, łądują się do połowy gdy obraz jest już przetworzony.
