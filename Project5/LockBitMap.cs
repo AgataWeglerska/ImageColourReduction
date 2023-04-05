@@ -8,7 +8,7 @@ using System.Drawing.Imaging;
 
 namespace Project5
 {
-    // I use the code from link:
+    // I used the code from link:
     // https://www.codeproject.com/Tips/240428/Work-with-Bitmaps-Faster-in-Csharp-3?fbclid=IwAR23kpdCrIomNIqJne1AhS-9suTJWnX_PnZUwzomgD0kCqOlDkcBMnfySsQ
     class LockBitMap
     {
