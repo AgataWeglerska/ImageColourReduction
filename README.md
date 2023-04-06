@@ -1,15 +1,14 @@
 # ImageColourReduction
-This is a program which reduce amount of used colours in the given picture.
-Colours from RGB color space are the combination of Red, Green and Blue colors, which are represented by eight bits.
-It gives 16 777 216 possible colours. 
+This is a program that reduces the number of colors used in a given picture.
+Colors from the RGB color space are combinations of red, green, and blue colors, each represented by eight bits, giving a 16,777,216 possible colors.
 
-The program uses Octree method to reduce the amount of colours. There are two versions:
-1. in first one - the reduction is after the octree construction
-2. the second one - the reduction is while octree is being constructed
+The program uses the Octree method to reduce the number of colors. There are two versions of the program:
+In the first version, the reduction occurs after the Octree is constructed.
+In the second version, the reduction occurs while the Octree is being constructed.
 
 # Example
-Picture in this example in the beggining uses 36 237 colours. 
-When reducted to 8 colours - there is a distinct change, however when reducted to 64 colours - it looks quite similar.
+To illustrate the program's capabilities, we can see in the top-left corner the picture taht originally used 36,237 colors.
+When picture reducted to 8 colours - there is a distinct change, however when reducted to 64 colours - it looks quite similar.
 
 1. Reduction to 8 colours.
 ![reduction_8col](https://user-images.githubusercontent.com/128033227/230078450-f2511d67-63b4-475e-8f22-dc53ed18c704.png)
